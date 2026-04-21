@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listar Categorias</title>
+  <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <div class="logo">Fake News Portal</div>
+    <nav class="menu">
+      <a href="../../index.html">Início</a>
+      <a href="../../pages/noticias/listar.html">Notícias</a>
+      <a href="../../pages/categorias/listar.html">Categorias</a>
+      <a href="../../pages/tags/listar.html">Tags</a>
+      <a href="../../pages/usuarios/listar.html">Usuários</a>
+      <a href="../../pages/comentarios/listar.html">Comentários</a>
+      <a href="../../pages/admin/dashboard.html">Admin</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section"><div class="container">
+  <div class="card"><h1>Listar Categorias</h1><p>Consulta geral com pesquisa e ações CRUD.</p>
+  <div class="searchbar" style="margin-top:16px">
+    <input type="text" placeholder="Pesquisar categorias...">
+    <select><option>Todos os status</option><option>Ativo</option><option>Inativo</option></select>
+    <select><option>Ordenar por</option><option>Mais recentes</option><option>Alfabética</option></select>
+    <a class="btn" href="criar.html">Criar novo</a>
+  </div></div>
+  <div style="margin-top:20px;overflow:auto">
+    <table class="table"><thead><tr><th>ID</th><th>Nome/Título</th><th>Status</th><th>Ações</th></tr></thead><tbody><tr><td>01</td><td>Categoria exemplo 1</td><td>Ativo</td><td><a class="btn-secondary" href="exibir.html">Exibir</a><a class="btn" href="editar.html">Editar</a><a class="btn-danger" href="apagar.html">Apagar</a></td></tr><tr><td>02</td><td>Categoria exemplo 2</td><td>Ativo</td><td><a class="btn-secondary" href="exibir.html">Exibir</a><a class="btn" href="editar.html">Editar</a><a class="btn-danger" href="apagar.html">Apagar</a></td></tr><tr><td>03</td><td>Categoria exemplo 3</td><td>Ativo</td><td><a class="btn-secondary" href="exibir.html">Exibir</a><a class="btn" href="editar.html">Editar</a><a class="btn-danger" href="apagar.html">Apagar</a></td></tr></tbody></table>
+  </div>
+</div></section>
+
+<footer>
+  <div class="container">
+    <p><strong>Fake News Portal</strong> — projeto acadêmico com páginas estáticas em HTML/CSS.</p>
+  </div>
+</footer>
+</body>
+</html>
